@@ -30,4 +30,3 @@ Bathymetry - ???
 Modern Waterbodies (Lakes & Rivers) - HydroSHEDS, OpenStreetMap Data, ESRI World Water Bodies
 Modern Divisions - VT-BAM, OSMBoundaries
 Global Topography Tiles - https://drive.google.com/file/d/18rOcJVANYV2REYss4mdBtG_J7wfiNZQy/view?usp=drivesdk 
-Google Docs
