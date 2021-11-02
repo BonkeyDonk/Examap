@@ -21,7 +21,20 @@ EXAMAP - INFORMATION
  - Topography
  - Borderpool (planned)
 - Raw
-
+ - Landmass Polygon
+ - Maritime Borders
+ - New Raw Wide Rivers
+ - Raw Rivers
+ - Raw Wide Rivers
+- Presents (planned)
+ - 2021 (planned)
+ - 1997 (planned)
+ - 1968 (planned)
+ - 1922 (planned)
+ - 1914 (planned)
+ - 1880 (planned)
+ - 1836 (planned)
+ - 1816 (planned)
 
 4. SOURCES
 - Land Elevation - https://worldclim.org/data/worldclim21.html (SRTM 30"), GEBCO Bathymetric Data
