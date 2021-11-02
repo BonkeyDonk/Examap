@@ -16,7 +16,10 @@ EXAMAP - INFORMATION
 
 3. MAP LAYERS
 - Main
- -
+ - Coastlines
+ - Rivers
+ - Topography
+ - Borderpool (planned)
 - Raw
 
 
