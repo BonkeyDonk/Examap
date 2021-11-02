@@ -1,7 +1,9 @@
 EXAMAP - INFORMATION
 
+1. HOW TO USE THE EXAMAP GITHUB
 
-1. GENERAL INFORMATION
+
+2. INFORMATION
 - Primary Source - SRTM Digital Elevation Model 30 Seconds (SRTM 30") 
 - Map Type - Raster World Map
 - Projection - Equirectangular (Plate Carree)
@@ -12,19 +14,13 @@ EXAMAP - INFORMATION
 - Standard Color Scheme - Gigascheme 
 
 
-2. MAP LAYERS
-- Coastline
-- Topography
-- Rivers
-- Lakes
-- Borderpool
-- Preset Dates (2021,1914,1939, etc.)
-- Grid Map
-- Geographical Changes (planned)
-- Drainage Basins/Watersheds (planned)
+3. MAP LAYERS
+- Main
+ -
+- Raw
 
 
-3. SOURCES
+4. SOURCES
 - Land Elevation - https://worldclim.org/data/worldclim21.html (SRTM 30"), GEBCO Bathymetric Data
 - Bathymetry - ???
 - Modern Waterbodies (Lakes & Rivers) - HydroSHEDS, OpenStreetMap Data, ESRI World Water Bodies
