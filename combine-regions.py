@@ -1,4 +1,5 @@
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = 100000000000
 
 import os
 
@@ -29,4 +30,5 @@ for y in range(top,bottom+1):
         y_pos = imconst * (y-top)
         final.paste(currentImage,(x_pos,y_pos),currentImage)
 
-final.save("combined_region.png")
+nameToSaveAs = input("What do you want to save the image as? (ex: combined.png): ")
+final.save(nameToSaveAs)

@@ -1,5 +1,5 @@
 from PIL import Image
-Image.MAX_IMAGE_PIXELS = 1000000000
+Image.MAX_IMAGE_PIXELS = 100000000000
 
 import os
 if not os.path.exists('examap_output'):
@@ -7,13 +7,15 @@ if not os.path.exists('examap_output'):
 
 import os
 
+end = input("What type of file do you want to save as? (ex: png) (Note: DO NOT ADD THE DOT!): ")
+
 imconst = 3600
 
 input = Image.open("final.png")
 
 for y in range(6):
     for x in range(12):
-        name = str(y) + str(f"{x+1:02}") + ".png"
+        name = str(y) + str(f"{x+1:02}") + "." + end
         print("Processing: " + name)
         thisRegion = Image.new("RGBA", (3600,3600), "white")
         left = imconst * x
