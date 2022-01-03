@@ -11,7 +11,7 @@ end = input("What type of file do you want to save as? (ex: png) (Note: DO NOT A
 
 imconst = 3600
 
-input = Image.open("final.png")
+input = Image.open("final.png").convert("RGBA")
 
 for y in range(6):
     for x in range(12):
