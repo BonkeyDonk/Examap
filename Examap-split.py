@@ -1,5 +1,5 @@
 from PIL import Image
-Image.MAX_IMAGE_PIXELS = 1000000000000000000000000000
+Image.MAX_IMAGE_PIXELS = 10000000000000
 
 import os
 if not os.path.exists('examap_output'):
@@ -9,7 +9,7 @@ import os
 
 imconst = 3600
 
-input = Image.open("final.png")
+input = Image.open("final.tif")
 
 for y in range(6):
     for x in range(12):
