@@ -7,15 +7,13 @@ if not os.path.exists('examap_output'):
 
 import os
 
-end = input("What type of file do you want to save as? (ex: png) (Note: DO NOT ADD THE DOT!): ")
-
 imconst = 3600
 
-input = Image.open("final.png").convert("RGBA")
+input = Image.open("final.tif").convert("RGBA")
 
 for y in range(6):
     for x in range(12):
-        name = str(y) + str(f"{x+1:02}") + "." + end
+        name = str(y) + str(f"{x+1:02}") + ".png"
         print("Processing: " + name)
         thisRegion = Image.new("RGBA", (3600,3600), "white")
         left = imconst * x

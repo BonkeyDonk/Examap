@@ -11,7 +11,7 @@ for y in range(6):
     for x in range(12):
         name = str(y) + str(f"{x+1:02}") + ".png"
         print("Processing: " + name)
-        currentImage = Image.open(name)
+        currentImage = Image.open(name).convert("RGBA")
         x_pos = imconst * x
         y_pos = imconst * y
         final.paste(currentImage,(x_pos,y_pos),currentImage)
