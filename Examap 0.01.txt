@@ -1,0 +1,15 @@
+# Welcome to the Pre-Release Examap version 0.01! #
+
+What the hell is the purpose of releasing Examap before it's even complete, you might ask?
+
+Well, I am too lazy to check over the entire 43200 x 21600 world map for every single mistake or unfilled pixel, and I am using this as an opportunity to get feedback on the project, and totally not because people begged me on my discord to release it already.
+
+Keep in mind that this is is very far from complete, as I am mostly doing this project by myself, and have been primarily focusing on drawing administrative divisions. Most promised features will be added in the future while more work intensive stuff is being worked on.
+
+In the mean time, enjoy this half-finished pile of dogshit. It's probably still better than Gigamap.
+
+
+- Ainsley
+
+Gigamap Guild Discord
+https://discord.gg/FNd9x6zZNB
